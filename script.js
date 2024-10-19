@@ -15,3 +15,4 @@ document.querySelectorAll('.dice').forEach(dice => {
     dice.classList.add('roll');
     setTimeout(() => dice.classList.remove('roll'), 500);
 });
+document.getElementById('shake-sound').play();
