@@ -50,3 +50,13 @@ button:hover {
 .dice.roll {
     transform: rotate(360deg);
 }
+.dice-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
