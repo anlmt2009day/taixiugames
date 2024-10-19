@@ -11,3 +11,7 @@ document.getElementById('roll-btn').addEventListener('click', function() {
     let resultText = total >= 11 ? "Tài" : "Xỉu";
     document.getElementById('result').innerText = `Kết quả: ${resultText}`;
 });
+document.querySelectorAll('.dice').forEach(dice => {
+    dice.classList.add('roll');
+    setTimeout(() => dice.classList.remove('roll'), 500);
+});
